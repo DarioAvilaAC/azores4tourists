@@ -1,4 +1,4 @@
-import './nav.html';
+import './navbar.html';
 
 Template.nav.onCreated(function () {
   console.log("started");

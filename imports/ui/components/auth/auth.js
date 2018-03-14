@@ -7,7 +7,7 @@ Template.Auth.helpers({
         if (!Meteor.user()) return null;
 
         //"http://graph.facebook.com/\" + user.services.facebook.id + \"/picture/?type=medium"
-        return `<img src="${Meteor.user().profile.picture}" alt="user" id="login-buttons-dropdown-align-" />`;
+        return `<img src="${Meteor.user().profile.picture}" alt="userPic" id="login-buttons-dropdown-align-" />`;
     },
 
 

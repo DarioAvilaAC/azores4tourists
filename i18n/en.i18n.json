@@ -1,5 +1,6 @@
 {
   "Example" : "English example yeaaahhhhh",
+  "headerText" : "I must put a title",
   "title" : "Welcome to Meteor!",
   "signUp" : "Sign up",
   "signIn" : "Sign in",

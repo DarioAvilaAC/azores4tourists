@@ -13,7 +13,7 @@ Meteor.startup(function () {
           }
 
           user.profile.picture =
-               `http://graph.facebook.com/${user.services.facebook.id}/picture/?type=small`;
+               `http://graph.facebook.com/${user.services.facebook.id}/picture/?type=square`;
           return user;
      })
 });
